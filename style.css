@@ -1,0 +1,76 @@
+body {
+    margin: 40px;
+    border-top: black 1px solid;
+}
+
+h1 {
+    border-bottom: #e6e6e6 1px solid;
+    padding-bottom: 20px;
+}
+
+th {
+    padding-right: 240px;
+    padding-bottom: 15px;
+    text-align: left;
+}
+
+td {
+    border-bottom: rgb(184, 182, 182) 3px solid;
+    border-top: rgb(184, 182, 182) 3px solid;
+}
+
+table {
+    margin-top: 80px;
+    border-collapse: collapse;
+}
+
+p {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%; 
+}
+
+#contenedor {
+    display: flex;
+    gap: 20px;
+}
+
+#contenedorCarrito {
+    background-color: rgb(199, 194, 194);
+    flex: 1;                      
+    margin-top: 65px; 
+}
+
+#tituloTotal {
+    margin-left: 15px;
+}
+
+#productosCarrito{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#contenedorTotal {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 80px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    margin-right: 15px;
+    border-top: 1px solid;
+    padding-top: 15px;
+}
+
+.cantidad {
+    padding: 8px;
+    margin: 8px;
+    text-align: center;
+}
+
+input {
+    width: 18px;
+}
+
+button {
+    width: 25px;
+}
