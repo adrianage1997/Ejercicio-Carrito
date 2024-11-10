@@ -146,6 +146,10 @@ document.addEventListener('DOMContentLoaded', function(event) {
                     const unidadesPrecio = document.createElement('span');
                     unidadesPrecio.innerText = producto['units'] + ' X ' + producto['price'] + '€';
                     salto.append(productoCalculado, unidadesPrecio);
+
+
+                    //Hola esto es de ejemplo
+
                     productosCarrito.append(salto);
                 });
 
