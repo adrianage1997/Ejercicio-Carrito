@@ -141,15 +141,11 @@ document.addEventListener('DOMContentLoaded', function(event) {
                 document.getElementById('productosCarrito').innerHTML = '';
                 productos.obtenerCarrito()['productosTotal'].forEach(producto => {
                     const salto = document.createElement('p');
-
                     const productoCalculado = document.createElement('span');
                     productoCalculado.innerText = producto['units'] + ' X ' + producto['title'];
-
                     const unidadesPrecio = document.createElement('span');
                     unidadesPrecio.innerText = producto['units'] + ' X ' + producto['price'] + '€';
-
                     salto.append(productoCalculado, unidadesPrecio);
-
                     productosCarrito.append(salto);
                 });
 
@@ -197,7 +193,5 @@ document.addEventListener('DOMContentLoaded', function(event) {
             .then(registros => {
                 const carrito = new Carrito(registros.products);
                 cargarCarrito(carrito);
-                
             });
-
 });
